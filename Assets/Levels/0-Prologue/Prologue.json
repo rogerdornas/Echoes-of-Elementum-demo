@@ -287,7 +287,7 @@
                 {
                  "height":288,
                  "id":5,
-                 "name":"Level1",
+                 "name":"Level2",
                  "properties":[
                         {
                          "name":"Event",
@@ -297,7 +297,7 @@
                         {
                          "name":"Scene",
                          "type":"string",
-                         "value":"Level1"
+                         "value":"Level2"
                         }, 
                         {
                          "name":"Target",

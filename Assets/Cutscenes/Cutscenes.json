@@ -178,10 +178,10 @@
           "type": "panCamera",
           "params": {
             "duration": 8.3,
-			"speedX": 300,
-			"speedY": 0,
-			"posStartX": 5440,
-			"posStartY": 1600
+			"speedX": 450,
+			"speedY": 150,
+			"posStartX": 3936,
+			"posStartY": 480
           }
         }
       ]

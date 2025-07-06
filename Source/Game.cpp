@@ -1107,7 +1107,7 @@ void Game::LoadObjects(const std::string &fileName) {
                         }
                     }
                     ids = ParseIntList(grounds);
-                    auto* fox = new Fox(this, 100, 170, 300, 700);
+                    auto* fox = new Fox(this, 100, 170, 300, 600);
                     fox->SetPosition(Vector2(x, y));
                     fox->SetId(id);
                     fox->SetUnlockGroundsIds(ids);
@@ -1134,7 +1134,7 @@ void Game::LoadObjects(const std::string &fileName) {
                         }
                     }
                     ids = ParseIntList(grounds);
-                    auto* frog = new Frog(this, 165, 165, 300, 500);
+                    auto* frog = new Frog(this, 165, 165, 300, 300);
                     frog->SetPosition(Vector2(x, y));
                     frog->SetId(id);
                     frog->SetArenaMinPos(Vector2(MinPosX, MinPosY));
@@ -1142,7 +1142,7 @@ void Game::LoadObjects(const std::string &fileName) {
                     frog->SetUnlockGroundsIds(ids);
                 }
                 else if (name == "Moth") {
-                    auto* moth = new Moth(this, 200, 200, 500, 1000);
+                    auto* moth = new Moth(this, 200, 200, 500, 800);
                     moth->SetPosition(Vector2(x, y));
                     moth->SetId(id);
                 }
@@ -1172,7 +1172,7 @@ void Game::LoadObjects(const std::string &fileName) {
                             }
                         }
                     }
-                    auto* golem = new Golem(this, 144, 190, 600, 400);
+                    auto* golem = new Golem(this, 144, 190, 600, 300);
                     golem->SetPosition(Vector2(x, y));
                     golem->SetId(id);
                     golem->SetArenaMinPos(Vector2(MinPosX, MinPosY));
