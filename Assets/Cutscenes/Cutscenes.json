@@ -1,0 +1,220 @@
+{
+  "cutscenes": [
+      {
+      "id": "introduction",
+      "actions": [
+        {
+          "type": "playerStop",
+          "params": {
+            "duration": 0.5
+          }
+        },
+        {
+          "type": "movePlayer",
+          "params": {
+			"direction": "right",
+			"speed": 500.0,
+            "duration": 3.0
+          }
+        },
+        {
+          "type": "playerLookLeft",
+          "params": {
+            "duration": 0.1
+          }
+        },
+        {
+          "type": "playerStop",
+          "params": {
+            "duration": 1.0
+          }
+        },
+        {
+          "type": "show_dialogue",
+          "params": {
+			"dialoguePath": "../Assets/Dialogues/Introducao.txt"
+          }
+        },
+        {
+          "type": "movePlayer",
+          "params": {
+			"direction": "right",
+			"speed": 500.0,
+            "duration": 5.0
+          }
+        }
+      ]
+    },
+	{
+      "id": "bossFinalInicio",
+      "actions": [
+        {
+          "type": "movePlayer",
+          "params": {
+			"direction": "right",
+			"speed": 500.0,
+            "duration": 2.5
+          }
+        },
+        {
+          "type": "playerStop",
+          "params": {
+            "duration": 1.0
+          }
+        },
+        {
+          "type": "show_dialogue",
+          "params": {
+			"dialoguePath": "../Assets/Dialogues/BossFinalInicio.txt"
+          }
+        },
+        {
+          "type": "movePlayer",
+          "params": {
+			"direction": "right",
+			"speed": 500.0,
+            "duration": 1.0
+          }
+        }
+      ]
+    },
+	{
+      "id": "primeiraMortePlayer",
+      "actions": [
+        {
+          "type": "playerStop",
+          "params": {
+            "duration": 1.0
+          }
+        },
+        {
+          "type": "playerLookLeft",
+          "params": {
+            "duration": 0.1
+          }
+        },
+        {
+          "type": "show_dialogue",
+          "params": {
+			"dialoguePath": "../Assets/Dialogues/PrimeiraMorte.txt"
+          }
+        }
+      ]
+    },
+	{
+      "id": "segundaMortePlayer",
+      "actions": [
+        {
+          "type": "playerStop",
+          "params": {
+            "duration": 0.5
+          }
+        },
+        {
+          "type": "playerLookLeft",
+          "params": {
+            "duration": 0.1
+          }
+        },
+        {
+          "type": "show_dialogue",
+          "params": {
+			"dialoguePath": "../Assets/Dialogues/SegundaMorte.txt"
+          }
+        }
+      ]
+    },
+	{
+      "id": "fimPrimeiroBoss",
+      "actions": [
+        {
+          "type": "playerStop",
+          "params": {
+            "duration": 0.5
+          }
+        },
+        {
+          "type": "show_dialogue",
+          "params": {
+			"dialoguePath": "../Assets/Dialogues/PrimeiroBoss.txt"
+          }
+        }
+      ]
+    },
+	{
+      "id": "ShowLevel1",
+      "actions": [
+        {
+          "type": "panCamera",
+          "params": {
+            "duration": 6.0,
+			"speedX": 300,
+			"speedY": 0,
+			"posStartX": 18272,
+			"posStartY": 3520
+          }
+        }
+      ]
+    },
+	{
+      "id": "ShowLevel2",
+      "actions": [
+        {
+          "type": "panCamera",
+          "params": {
+            "duration": 7.5,
+			"speedX": 300,
+			"speedY": 0,
+			"posStartX": 7360,
+			"posStartY": 2528
+          }
+        }
+      ]
+    },
+	{
+      "id": "ShowLevel3",
+      "actions": [
+        {
+          "type": "panCamera",
+          "params": {
+            "duration": 8.3,
+			"speedX": 300,
+			"speedY": 0,
+			"posStartX": 5440,
+			"posStartY": 1600
+          }
+        }
+      ]
+    },
+	{
+      "id": "ShowLevel4",
+      "actions": [
+        {
+          "type": "panCamera",
+          "params": {
+            "duration": 8.5,
+			"speedX": 300,
+			"speedY": -300,
+			"posStartX": 4704,
+			"posStartY": 3488
+          }
+        }
+      ]
+    },
+	{
+      "id": "ShowLevel5",
+      "actions": [
+        {
+          "type": "panCamera",
+          "params": {
+            "duration": 6.0,
+			"speedX": 300,
+			"speedY": 0,
+			"posStartX": 18272,
+			"posStartY": 3520
+          }
+        }
+      ]
+    }
+  ]
+}

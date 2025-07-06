@@ -1,0 +1,190 @@
+{
+  "frames": [
+    {
+      "filename": "AcidBlob1.png",
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 22,
+        "h": 24
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 24
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "AcidBlob2.png",
+      "frame": {
+        "x": 1,
+        "y": 25,
+        "w": 22,
+        "h": 24
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 24
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "AcidBlob3.png",
+      "frame": {
+        "x": 27,
+        "y": 1,
+        "w": 22,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 24
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "AcidBlob4.png",
+      "frame": {
+        "x": 27,
+        "y": 27,
+        "w": 22,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 24
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "AcidBlob5.png",
+      "frame": {
+        "x": 1,
+        "y": 49,
+        "w": 22,
+        "h": 24
+      },
+      "rotated": true,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 24
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "AcidBlob6.png",
+      "frame": {
+        "x": 51,
+        "y": 1,
+        "w": 22,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 24
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "filename": "AcidBlob7.png",
+      "frame": {
+        "x": 51,
+        "y": 27,
+        "w": 22,
+        "h": 24
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 22,
+        "h": 24
+      },
+      "sourceSize": {
+        "w": 22,
+        "h": 24
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    }
+  ],
+  "meta": {
+    "app": "http://free-tex-packer.com",
+    "version": "0.6.7",
+    "image": "AcidBlob.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 74,
+      "h": 72
+    },
+    "scale": 1
+  }
+}
